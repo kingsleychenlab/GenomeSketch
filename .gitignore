@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated plots (examples/plots is committed; ad-hoc outputs are not)
+*.png
+!examples/plots/*.png
+
+# OS
+.DS_Store
